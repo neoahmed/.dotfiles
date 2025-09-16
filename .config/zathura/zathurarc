@@ -1,0 +1,94 @@
+###############################################################################
+# zathurarc — Gruvbox Material (Medium / Material) — dark-only
+###############################################################################
+
+# Palette (referenced names and hex)
+# bg_dim          #1B1B1B
+# bg0             #282828
+# bg1             #32302F
+# bg2             #32302F
+# bg3             #45403D
+# bg4             #45403D
+# bg5             #5A524C
+
+# accents / visual
+# red             #EA6962
+# green           #A9B665
+# blue            #7DAEA3
+# yellow          #D8A657
+# purple          #D3869B
+# orange          #E78A4E
+# aqua            #89B482
+
+# foregrounds / greys
+# fg0             #D4BE98
+# fg1             #DDC7A1
+# grey0           #7C6F64
+# grey1           #928374
+# grey2           #A89984
+
+###############################################################################
+# Notifications / general
+set notification-error-bg       "#1B1B1B"
+set notification-error-fg       "#EA6962"
+set notification-warning-bg     "#1B1B1B"
+set notification-warning-fg     "#D8A657"
+set notification-bg             "#282828"
+set notification-fg             "#A9B665"
+
+# Completion popup (search / open)
+set completion-bg               "#32302F"
+set completion-fg               "#D4BE98"
+set completion-group-bg         "#45403D"
+set completion-group-fg         "#928374"
+set completion-highlight-bg     "#7DAEA3"
+set completion-highlight-fg     "#282828"
+
+# Index (sidebar / toc)
+set index-bg                    "#32302F"
+set index-fg                    "#D4BE98"
+set index-active-bg             "#7DAEA3"
+set index-active-fg             "#282828"
+
+# Input / statusbars
+set inputbar-bg                 "#3A3735"   # slightly different statusline tone
+set inputbar-fg                 "#D4BE98"
+
+set statusbar-bg                "#3A3735"
+set statusbar-fg                "#D4BE98"
+
+# Highlights / selections
+set highlight-color             "#D8A657"   # yellow
+set highlight-active-color      "#E78A4E"   # orange (active)
+
+# Page / default reading colors (avoid bright white)
+set default-bg                  "#282828"
+set default-fg                  "#DDC7A1"
+
+set render-loading              true
+set render-loading-bg           "#282828"
+set render-loading-fg           "#D4BE98"
+
+# Recolor PDF content to the theme (avoid white pages)
+set recolor-lightcolor          "#282828"   # page background after recolor
+set recolor-darkcolor           "#D4BE98"   # page text color after recolor
+set recolor                     true
+set recolor-keephue             true
+
+# Visual / selection colors (used by some zathura builds)
+# (these may be ignored if your zathura doesn't expose them)
+set selection-bg                "#374141"   # bg_visual_blue
+set selection-fg                "#D4BE98"
+set visual-red-bg               "#4C3432"
+set visual-green-bg             "#3B4439"
+set visual-yellow-bg            "#4F422E"
+set visual-purple-bg            "#443840"
+
+# Optional: colors for diffs / statusline / current-word (some builds use them)
+set statusline-bg1              "#32302F"
+set statusline-bg2              "#3A3735"
+set statusline-bg3              "#504945"
+set current-word-bg             "#3C3836"
+
+
+

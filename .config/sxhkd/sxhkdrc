@@ -1,0 +1,47 @@
+alt + Return
+	$TERMINAL
+
+super + f
+	$TERMINAL -e nnn -Rr
+
+super + w
+	$BROWSER
+
+super + m
+	"signal-desktop"
+
+super + n
+	 firejail --noprofile --net=none obsidian
+
+super + shift + n
+	"obsidian"
+
+super + p
+	"passmenu"
+
+alt + shift + p
+	mpv $(xclip -o)
+
+super + v
+	$TERMINAL -e nvim
+
+super + b 
+	"brave"
+
+alt + {equal, minus, BackSpace}
+	$HOME/bin/volume.sh {up, down, toggle}
+
+Print
+	maim -u -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+
+ctrl + Print
+	maim -s | xclip -selection clipboard -t image/png
+
+super + Print
+	$HOME/bin/screencast.sh
+
+super + shift + BackSpace
+	$HOME/bin/exit.sh
+
+
+
